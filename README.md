@@ -5,3 +5,6 @@ TL;DR - creates and initializes a database for calculating shipment costs within
 
 
 FishSqInitialize.sql - Initializes the FishSq database. Assuming that different stores are going to be using their own collected data (and no other store's data), it's important that each database be able to run independently using its own tables. Tables and Column names are defined within this file.
+
+
+UpdateSuppliersTable.sql - Serves as a demo script to let users update their Suppliers Table in their FishSq database
